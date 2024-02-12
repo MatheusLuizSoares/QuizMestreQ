@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-
 urlpatterns = [
-    path('novo_flashcard/', views.novo_flashcard )
+    path('novo_flashcard/', views.novo_flashcard)
 ]
+
